@@ -1,0 +1,137 @@
+body 
+
+{
+    width: 1440px;
+    height: 1056px;
+    font-size: 15px;
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+
+#QR-panel
+
+{
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;    
+background-color: rgb(180, 217, 252);
+width: 1200px;
+height: 600px;
+border-radius: 10px;
+box-shadow:
+  0.4px 1.2px 2.2px rgba(0, 0, 0, 0.02),
+  1px 2.9px 5.3px rgba(0, 0, 0, 0.028),
+  1.9px 5.5px 10px rgba(0, 0, 0, 0.035),
+  3.4px 9.8px 17.9px rgba(0, 0, 0, 0.042),
+  6.3px 18.4px 33.4px rgba(0, 0, 0, 0.05),
+  15px 44px 80px rgba(0, 0, 0, 0.07)
+;
+}
+
+
+.QR-panel-QR
+
+
+{
+ 
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;    
+
+width: 220px;
+height: 330px;
+background-color: white;
+border-radius: 10px;
+box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+
+
+
+}
+
+
+.QR-panel-title
+
+
+{
+
+text-shadow: 1px 1px 3px #808080;;
+font-size: 1em;
+font-weight: bold;
+text-align: center;
+margin-left: 5px;
+margin-right: 5px;
+margin-bottom: 10px;
+color: rgb(37, 37, 37);
+
+}
+
+
+.QR-panel-QR img
+
+{   
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+
+}
+
+
+.QR-panel-QR .QR-panel-text
+
+{
+
+    color: rgb(207, 207, 207);
+    
+
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    font-size: 1em;
+    font-weight: 600;
+    text-align: center;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {  
+        text-shadow: 1px 1px 3px #808080;;
+
+                margin-top: 20px;
+                margin-bottom: 20px;
+                font-size: 11px; 
+                text-align: center;  }
+
+
+.attribution a { 
+    
+    
+                color: hsl(228, 45%, 44%);  
+            
+            
+            }   
